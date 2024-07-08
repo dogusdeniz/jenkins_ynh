@@ -45,14 +45,14 @@ ram.runtime = "50M"
     [resources.sources]
     [resources.sources.jenkins-plugin-manager]
     url = "https://github.com/jenkinsci/plugin-installation-manager-tool/releases/download/2.13.0/jenkins-plugin-manager-2.13.0.jar"
-    sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 = "ced30bcaa33209478ad43a6f02e5e217415a1f3a37b28d2d044db7b3e96004e5"
     format = "whatever"
     extract = false
     rename = "jenkins-plugin-manager.jar"
 
     [resources.sources.main]
     url = "https://mirrors.jenkins.io/debian-stable/jenkins_2.452.2_all.deb"
-    sha256 = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 = "b29bb56be98051a03044315138ae8cc64cbcd7cfed52542fc4f8c11ec99d3796"
     format = "whatever"
     extract = false
     rename = "jenkins.deb"
